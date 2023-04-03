@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  padding: 0 32px 0 32px;
+}
+
+.summary {
+  max-width: 453px;
+  width: 100%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 16px;
+  box-shadow: -4px 1px 13px 0px rgba(0, 0, 0, 0.75);
+  padding-bottom: 32px;
+}
+
+.summary__img img {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  width: 100%;
+}
+
+.summary__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 24px;
+  padding: 8px;
+  text-align: center;
+}
+
+.summary__text h2 {
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(57, 57, 57);
+}
+
+.summary__text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: gray;
+}
+
+.summary__plan {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.summary__plan p {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.summary__plan .gray {
+  color: gray;
+}
+
+.summary__plan .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: hsl(0, 1%, 78%);
+  color: hsl(224, 23%, 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary__plan a {
+  color: hsl(245, 75%, 52%);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.summary__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.summary__button button {
+  width: 80%;
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.summary__button button:hover {
+  box-shadow: -4px 1px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.summary__button-blue {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.summary__button-white {
+  background-color: hsl(225, 100%, 98%);
+  color: rgb(129, 127, 127);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
