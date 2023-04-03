@@ -22,8 +22,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- [Solution URL](https://github.com/emre-02/Product-preview-card-component)
-- [Live Site URL](https://emre-02.github.io/Product-preview-card-component/)
+- [Solution URL](https://github.com/emre-02/Order-summary-card)
+- [Live Site URL](https://emre-02.github.io/Order-summary-card/)
 
 ## My process
 
